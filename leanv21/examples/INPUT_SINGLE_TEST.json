@@ -1,0 +1,26 @@
+{
+  "startUrls": [
+    {
+      "url": "https://www.ebay.com/itm/254390229484",
+      "userData": {
+        "source_record_id": "MASHA-SAMPLE-254390229484",
+        "shopify_product_id": "SAMPLE",
+        "shopify_handle": "sample-ring",
+        "shopify_sku": "03471",
+        "batch_id": "TEST_B01"
+      }
+    }
+  ],
+  "maxConcurrency": 1,
+  "maxRequestsPerCrawl": 1,
+  "waitAfterLoadMs": 1200,
+  "saveFailureSnapshots": false,
+  "proxyConfiguration": {
+    "useApifyProxy": true,
+    "groups": [
+      "RESIDENTIAL"
+    ]
+  },
+  "warmUpHomepage": true,
+  "maxRequestRetries": 6
+}
