@@ -1,0 +1,17 @@
+{
+  "name": "mashausa-ebay-source-actor-lite",
+  "version": "2.2.0",
+  "type": "module",
+  "description": "Lean MashaUSA eBay actor that extracts only description-relevant jewelry facts.",
+  "dependencies": {
+    "apify": "^3.4.2",
+    "crawlee": "^3.15.3",
+    "playwright": "*"
+  },
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
